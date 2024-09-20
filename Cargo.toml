@@ -7,3 +7,19 @@ edition = "2021"
 log = "0.4.22"
 windebug_logger = "0.1.4"
 windows-service = "0.7.0"
+
+[dependencies.windows-sys]
+version = "0.59.0"
+features = [
+    "Win32_Storage",
+    "Win32_Foundation",
+    "Win32_System_IO",
+    "Win32_Security",
+    "Win32_System_Antimalware",
+    "Win32_Storage_FileSystem",
+    "Win32_Storage_InstallableFileSystems",
+    "Win32_System",
+    "Win32_System_Diagnostics",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Services",
+]
