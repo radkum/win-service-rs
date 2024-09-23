@@ -1,7 +1,11 @@
 [package]
-name = "win-service"
+name = "win-service-rs"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "win-service"
+path = "src/main.rs"
 
 [dependencies]
 log = "0.4.22"
